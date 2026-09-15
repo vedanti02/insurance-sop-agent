@@ -4,6 +4,10 @@ A customer-service agent that follows a fixed business workflow — **VERIFY_ID 
 
 Two verticals run on the same engine with zero engine changes between them — insurance claims (the assignment) and card disputes (a structurally different workflow added to prove the abstraction). Both pass the same evaluation suite; numbers below.
 
+## Live demo
+
+**https://insurance-sop-agent.onrender.com** — free-tier host, so the first request after ~15 idle minutes takes 30–60 s to wake; `/api/health?probe=1` confirms the model provider is reachable. Pick the vertical in the top-left dropdown; the quick buttons paste the scripted callers.
+
 ## Sixty-second quickstart
 
 ```bash
