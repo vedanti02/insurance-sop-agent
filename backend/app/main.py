@@ -41,7 +41,23 @@ def health(probe: bool = False) -> dict:
             OpenAI(api_key=settings.llm_api_key, base_url=settings.llm_base_url, timeout=15.0, max_retries=0).models.retrieve(settings.perceive_model)
             out["provider"] = "ok"
         except Exception as e:  # noqa: BLE001
-            out["provider"] = f"{type(e).__name__}: {str(e)[:300]}"
+            chain, cur = [], e
+            while cur is not None and len(chain) < 5:
+                chain.append(f"{type(cur).__name__}: {str(cur)[:120]}")
+                cur = cur.__cause__ or cur.__context__
+            out["provider"] = " <- ".join(chain)
+        import socket
+        import urllib.request
+        host = (settings.llm_base_url or "https://api.openai.com/v1").split("//")[1].split("/")[0]
+        try:
+            out["dns"] = sorted({a[4][0] for a in socket.getaddrinfo(host, 443)})[:4]
+        except Exception as e:  # noqa: BLE001
+            out["dns"] = f"{type(e).__name__}: {e}"
+        try:
+            req = urllib.request.Request(f"https://{host}/v1/models", headers={"Authorization": f"Bearer {settings.llm_api_key}"})
+            out["stdlib_https"] = urllib.request.urlopen(req, timeout=15).status
+        except Exception as e:  # noqa: BLE001
+            out["stdlib_https"] = f"{type(e).__name__}: {str(e)[:200]}"
     return out
 
 
