@@ -1,0 +1,94 @@
+{
+ "242e0ccb3be0dcceb0bff746": "Thanks for letting me know, and I see you've already provided your full name. I\u2019ve also made a note about your denied claim, and we\u2019ll get to that as soon as we finish this quick verification. Could you please provide two of the following: your date of birth, the phone number on file, the email address on file, or the last four digits of the ID on your policy?",
+ "651b9323061bbb14c729c30d": "Thank you, Margaret, I see you've already provided your full name. I've also made a note about your concern with the denied claim, and we'll get to that right after we finish verifying your identity. Could you please provide two of the following: your date of birth, the phone number on file, your email address on file, or the last four digits of the ID on your policy?",
+ "667f2c1ce4d509bbef59856f": "Thanks for giving me your full name, and I see you\u2019re calling about a denied claim. Before we get into the details, I still need two more pieces of information for verification. Could you please provide your date of birth and either the phone number or email address on file?",
+ "7322b82a95ec1bcbde029b90": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "81ffdb67054c50dedae8ad9c": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "bdd1578b9e5dd4c318f3227a": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "What is the status or next step for my denied claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

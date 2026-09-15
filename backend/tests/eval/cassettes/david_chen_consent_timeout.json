@@ -1,0 +1,263 @@
+{
+ "270c10fb3fd9340d22b08052": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": {
+   "relationship": null,
+   "rep_name": null
+  },
+  "scope": "in_scope",
+  "wants_human": true
+ },
+ "36794742cad7984891985db2": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my mother's healthcare claim denied?",
+  "refusal": false,
+  "representative": {
+   "relationship": "child",
+   "rep_name": "David Chen"
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "47cb948d1b6dfbf0e9c24ff8": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": {
+   "relationship": null,
+   "rep_name": null
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "63a2a03f02c4ab0126839dda": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was the healthcare claim denied?",
+  "refusal": false,
+  "representative": {
+   "relationship": "mother",
+   "rep_name": "David Chen"
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "65f09dca72027edae4a4c5ae": "Thank you, David. I\u2019ve noted that you\u2019re calling about your mother\u2019s denied healthcare claim, and we\u2019ll get to that as soon as we finish verification. I\u2019m now going to request your mother\u2019s authorization so I can continue. Please hold for a moment.",
+ "6d93a03a762b366abe7f9b49": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "7d4b5fbb3322fbd159ad7fdb": "Thanks for waiting, David. Unfortunately, your mother\u2019s authorization didn\u2019t come through in time, so I can\u2019t share any account details right now. If she\u2019s available, she can call us directly, or we can arrange a callback once she authorizes you. If you\u2019d like to speak with a human representative about other options, I can connect you. Would you like to do that?",
+ "9afd656bca60f17f3db7effb": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": {
+   "relationship": "child",
+   "rep_name": "David"
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "a57b5f4613a7c5738d96278b": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "b6d8eecf71776847b68d3118": "Thanks for waiting, David. Unfortunately, your mother\u2019s authorization didn\u2019t come through in time, so I\u2019m not able to share any details on her account right now. If she\u2019d like, she can call us directly, or we can arrange a callback once her authorization is on file. I can also connect you with a human representative if you\u2019d prefer. What would you like to do next?",
+ "f1d141198e7e2fa8c7af552f": "Thank you for letting me know you're calling for your mother, and I've noted that you want to talk about a denied healthcare claim. For privacy reasons, I can only speak with the policyholder or someone already listed as an authorized representative. If you'd like, I can connect you with a human representative who can explain what options might be available. Would you like to speak with someone now?",
+ "f5748c760329072df27b1d29": "Thank you, David. I\u2019ve confirmed the details you provided. I see you\u2019re calling about your mother\u2019s denied healthcare claim, and we\u2019ll get to that right after verification. I\u2019m now requesting your mother\u2019s authorization, so please hold for a moment.",
+ "faee00860dad491ec5f083a2": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my mother's healthcare claim denied?",
+  "refusal": false,
+  "representative": {
+   "relationship": "child",
+   "rep_name": "David Chen"
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

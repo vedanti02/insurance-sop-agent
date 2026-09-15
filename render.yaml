@@ -1,0 +1,22 @@
+# Render blueprint: `render.com` -> New -> Blueprint -> point at this repo.
+# Set LLM_API_KEY in the dashboard (never commit it). Free tier is enough for the demo.
+services:
+  - type: web
+    name: insurance-sop-agent
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODE
+        value: live
+      - key: PERCEIVE_MODEL
+        value: gpt-4.1-mini
+      - key: RESPOND_MODEL
+        value: gpt-4.1
+      - key: DEMO_TODAY
+        value: "2026-03-01"
+      - key: CONSENT_SCENARIO
+        value: default

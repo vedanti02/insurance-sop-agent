@@ -1,0 +1,94 @@
+{
+ "012c864236a39c401822fdf8": "Thanks, your identity is confirmed. I don't see any claims on file for you right now. Could you tell me more about the claim you're calling about, or is there anything else I can help with?",
+ "43479bb7229f0f92f3832462": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": "CL-3001",
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "Tell me about claim CL-3001",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "622350c0bc919374938b03bb": "Thank you, Margaret, your identity is now confirmed. I don't see any claims on file for you at this time. Could you tell me more about the claim you're calling about?",
+ "996c32e240cd568f6c198864": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": "CL-3001",
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "Tell me about claim CL-3001",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "bccf92dcabd6de696f39f788": "Thanks, your identity is verified now. I don't see any claims on file for you at the moment. Is there something else I can help with?",
+ "ef07a1ccb94dc5968cbdcfe6": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": "CL-3001",
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "general_claim_question",
+  "new_case_request": false,
+  "question": "Tell me about claim CL-3001",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

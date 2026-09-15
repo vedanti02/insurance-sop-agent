@@ -1,0 +1,34 @@
+{
+ "c8a691a1c8908ddc7c3b868a": "Thanks for letting me know you\u2019re calling about a dispute. I\u2019ll be able to help with that as soon as I confirm your identity. Could you please provide your full name and the date of birth on your account?",
+ "e5d167ef4b5034c45c906361": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "dispute_reason",
+  "new_case_request": false,
+  "question": "Why was my dispute denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

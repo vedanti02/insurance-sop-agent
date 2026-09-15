@@ -1,0 +1,97 @@
+{
+ "379530ca9b127a11a3cbfa48": "Thanks for confirming your details, Yaven. Your identity is verified. Right now, there are no claims on file for this policy. I can send a summary of our conversation to the email address we have for you\u2014it will include what we discussed, your current claim status, and any next steps. It\u2019ll just say that we talked about your claim status and that there are no claims open. Would you like me to send that summary?",
+ "42d3e51cb35aa9cc1ac92132": "Thanks for checking in today, Yaven. As of March 1, 2026, there are no claims on file for you. I can email you a summary of this conversation, including what we discussed and the current claim status, to the address we have for you. Would you like me to send that?",
+ "76e4643386d56aad479f1252": "Thanks for confirming your details. Your identity is verified. Right now, there are no claims on file for your account. I can email you a summary of this conversation to the address we have for you\u2014it will include what we talked about, your claim status, and any follow-up items. The email will have a brief recap of today\u2019s discussion and the current status. Would you like me to send that?",
+ "7b2306aa581c83f3f0398859": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "3 December 1989",
+   "email": "yawen.li@example.com",
+   "full_name": "Yaven Li",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "What is the status of my claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "7d9855c567bfeed9140580bc": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "3 December 1989",
+   "email": "yawen.li@example.com",
+   "full_name": "Yaven Li",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "What is the status of my claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "818a24f86ba056bc0745ddb0": "Thanks for confirming your details. We talked about your claim status, and I confirmed there are no claims on file for you at this time. Would you like me to email a summary of our conversation to the address we have for you? It will include what we discussed and any follow-up items. Yes or no?",
+ "8db63a8318782b26957a9aad": "Thanks for confirming your details. We talked about the current claim status, and as of today, there are no claims on file for you. I can email you a summary of this conversation to the address we have on file\u2014it will mention what we discussed and confirm there are no claims at this time. Would you like me to send that summary?",
+ "a8673c42370fed856fd9c252": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "3 December 1989",
+   "email": "yawen.li@example.com",
+   "full_name": "Yaven Li",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "What is the status of my claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "d9caaf9f89f9682519895aa7": "Thanks, Yaven. I\u2019ve confirmed your identity. At the moment, there are no claims on file for your policy. Would you like me to email a summary of this conversation to the address we have for you? It will include what we discussed, that there are no claims right now, and any follow-up items\u2014here\u2019s a preview: \u201cWe reviewed your claim status as of March 1, 2026, and there are no claims on file.\u201d Would you like to receive that?"
+}

@@ -1,0 +1,339 @@
+{
+ "08fd1372dcb886d2cc54c43f": "I understand you have other questions, but I can\u2019t share any information until I verify your identity. If you\u2019d like to continue, I\u2019ll need your full name, your date of birth, and the phone number on file. Would you like to keep going with me, or would you prefer to speak with another representative?",
+ "0a0cf1b3ad02fe86c84f9a72": "That\u2019s not something I can assist with on this line. If you need help with something else, I can connect you to a human representative. For insurance claims support, I still need to verify your identity. Could you provide your full name, your date of birth, and the last four digits of the ID on your policy?",
+ "0a923e11a0c3d9a909c18fec": "Thanks for calling the claims support line. Before we can talk about any account details, I\u2019ll need to verify your identity. Could you please provide your full name, along with either your date of birth or the last four digits of the ID on your policy?",
+ "0f85e8780f54c04735b11d4f": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "21e422478ebc3f8d67ef22f5": "I can hear that you're frustrated, and I'm sorry for any inconvenience. For your security, I have to verify your identity before I can discuss anything related to claims or policies. Could you please provide your full name, your date of birth, and the last four digits of the ID on your policy? If you\u2019d prefer, I can connect you to a representative. Would you like to speak with someone directly?",
+ "2f7e55cdefe7852f5ed64e85": "I\u2019m sorry, but I can\u2019t help with questions about reinforcement learning on this line. You\u2019ve reached the insurance claims support line. Before we talk about anything on your account, I\u2019ll need to verify your identity. Can you please provide your full name, along with your date of birth and the phone number on file?",
+ "32b8f5a4a71b51a8f1cadbb8": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "What is reinforcement learning?",
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "3913be02620894746bd83697": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "3bb9f0c5819b04da20123300": "I understand you\u2019d like some general information, but I can\u2019t discuss account details until I\u2019ve verified your identity. To continue, I\u2019ll need your full name, your date of birth, and the last four digits of the ID on your policy. If you\u2019d rather speak with a representative, just let me know\u2014would you like to be connected to someone?",
+ "59018473838b87328285edcf": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "What is the capital of France?",
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "648148845b6fc08aae4a320d": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "explain reinforcement learning quickly",
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "834a3a50c59d35520dcbd3af": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "What is reinforcement learning?",
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "869590438b083fa042cf6984": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "What is the capital of France?",
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "873e42fecac0a188883bd19a": "I\u2019m sorry, but I can\u2019t help with questions about world capitals on this line. This support line is only for insurance claims. If you have another need, I can connect you with a human representative. To continue with any claim support, I\u2019ll need to verify your identity\u2014could you please provide your full name, date of birth, and the phone number on your account?",
+ "a08cb3a3958c1c4f9a1104ba": "Thanks for reaching out. You\u2019ve reached the claims support line. Before we can discuss anything further, I\u2019ll need to verify your identity. Could you please provide your full name, along with either your date of birth or the last four digits of the ID on your policy?",
+ "a416fdd47e49c00edad78d3e": "I understand you\u2019re frustrated, and I\u2019m sorry this line isn\u2019t able to help with questions about reinforcement learning. This support line is just for insurance claims. If you need help with something else, I can connect you with a human representative. For any claim details, I\u2019ll need to verify your identity to keep your information safe. Could you please provide your full name, date of birth, and the phone number on file?",
+ "a7d8f08253c546dfe7cd1089": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "a9f18a8ce96f1563b8581e87": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "What is the capital of France?",
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "aff9665730e86e8fd40505bc": "I understand this is frustrating, but I can\u2019t help with that topic here\u2014this line is only for insurance claims support. If you have another need, I can connect you with a human representative. For your security, I do need to verify your identity before we can discuss any claim details. Could you please provide your full name, your date of birth, and the last four digits of the ID on your policy?",
+ "b8ad82a6897ec158d609efb5": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "explain RL quickly",
+  "refusal": true,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "be920a9fd00bf20aa4914ae1": "I\u2019m sorry, but that\u2019s not something I can help with on this line. You\u2019ve reached the insurance claims support team. Before we discuss anything related to a claim, I\u2019ll need to verify your identity. May I have your full name, along with either your date of birth or the last four digits of the ID on your policy?",
+ "c5e2e0ade2367b6152d82d70": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "explain RL quickly",
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "e70d0e1a1c9484b69312d087": "I can hear that you\u2019re frustrated, and I\u2019m sorry for any inconvenience. To keep your information safe, I have to confirm your identity before sharing any details. Could you please provide your full name, your date of birth, and the phone number on file? If you\u2019d rather speak with someone else, I can connect you to a representative. Would you like to continue with me or speak to someone else?"
+}

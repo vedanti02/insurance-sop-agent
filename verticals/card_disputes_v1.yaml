@@ -1,0 +1,74 @@
+# Card dispute vertical. Same engine, different structure: two-field verification, matching on
+# merchant/amount, a provisional-credit acknowledgment instead of an email summary, and a dispute
+# window instead of an appeal deadline.
+name: card_disputes_v1
+initial_phase: VERIFY_ID
+
+verification:
+  required_fields: 2
+  fields: [full_name, dob, phone, email, id_last4]
+  mismatch_turns_offer_human: 3
+  mismatch_turns_lock: 5
+  unknown_policy_attempts: 2
+
+scope:
+  strikes_offer_human: 2
+  strikes_handoff: 4
+
+persuasion_budget: 2
+
+global_exits:
+  - { when: "control.wants_human == true", to: HANDOFF }
+  - { when: "identity.locked == true",     to: HANDOFF }
+  - { when: "control.scope_strikes >= 4",  to: HANDOFF }
+
+phases:
+  VERIFY_ID:
+    style: strict
+    tools_allowed: [verify_identity, transfer_to_human]
+    disclosable: []
+    must_ground: false
+    exits:
+      - { when: "identity.access_granted == true", to: RESOLVE_INTENT }
+      - { when: "control.done == true",            to: CLOSED }
+
+  RESOLVE_INTENT:
+    style: free
+    tools_allowed: [list_my_disputes, find_dispute, transfer_to_human]
+    disclosable: [case_id, merchant, transaction_date, status]
+    must_ground: true
+    exits:
+      - { when: "intent.resolved_case != null", to: PROCESS_CASE }
+      - { when: "intent.no_claims == true",     to: POST_PROCESS }
+      - { when: "control.done == true",         to: POST_PROCESS }
+
+  PROCESS_CASE:
+    style: free
+    tools_allowed: [get_dispute, get_evidence_guidance, list_my_disputes, transfer_to_human]
+    disclosable: [case_id, merchant, amount, transaction_date, status, reason, denial_reason, evidence_needed,
+                  dispute_window_ends, provisional_credit_amount, provisional_credit_status]
+    must_ground: true
+    exits:
+      - { when: "intent.new_case_request == true", to: RESOLVE_INTENT }
+      - { when: "control.done == true",            to: POST_PROCESS }
+
+  POST_PROCESS:
+    style: strict
+    tools_allowed: [draft_dispute_summary, acknowledge_provisional_credit, transfer_to_human]
+    disclosable: [case_id, merchant, amount, status, provisional_credit_amount, dispute_window_ends]
+    must_ground: true
+    exits:
+      - { when: "post_process.decision in [accept, decline, not_offered]", to: CLOSED }
+      - { when: "control.done == false",                                   to: PROCESS_CASE }
+
+  HANDOFF:
+    style: strict
+    tools_allowed: []
+    disclosable: []
+    exits: []
+
+  CLOSED:
+    style: strict
+    tools_allowed: []
+    disclosable: []
+    exits: []

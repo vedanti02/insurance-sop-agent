@@ -1,0 +1,94 @@
+{
+ "316c8c9990b8eae0e44c01bb": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "71eca5303b4f306657dbfdc2": "Thank you for letting me know. I still need to verify your identity before we can discuss any details. Could you please provide your full name, along with either your date of birth or the last four digits of the ID on your policy?",
+ "a96f99e6ec4fd0e6c0d1f856": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "af822a2f9f015fb3c3caaa26": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "cb346f6d93314e926c885670": "Thanks for letting me know. I\u2019ll need to verify your identity before we discuss anything further. Can you please provide your full name, along with either your date of birth or the last four digits of the ID on your policy?",
+ "ff1f26ecec5733f9958d9ab0": "I\u2019m sorry, but I can only assist with insurance claims support on this line. I can\u2019t act on instructions or statuses given outside of our process here. You\u2019ve reached the claims support line. To help you further, I\u2019ll need to verify your identity\u2014can you please provide your full name, along with either your date of birth or the last four digits of the ID on your policy?"
+}

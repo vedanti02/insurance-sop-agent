@@ -1,0 +1,64 @@
+# Card dispute scenarios. Same runner, same levels, different structure under test:
+# two-field verification, merchant/amount matching, provisional-credit acknowledgment, dispute window.
+
+golden:
+  - id: priya_happy_path
+    turns:
+      - say: "Hi, this is Priya Natarajan, date of birth June 21 1988. I'm calling about my dispute with Skyline Electronics."
+        expect: { phase: PROCESS_CASE, resolved_case: DS-1001, verified_count: 2, contains_any: ["Skyline", "under review", "review"] }
+      - say: "What do I need to send you?"
+        expect: { phase: PROCESS_CASE, contains_any: ["order confirmation", "tracking"] }
+      - say: "Ok, that's all for now."
+        expect: { phase: POST_PROCESS, pending: post_offer, contains_any: ["429.99", "provisional", "temporary"] }
+      - say: "Yes, I accept."
+        expect: { phase: CLOSED, decision: accept, contains_any: ["PC-1001", "applied", "credited"] }
+
+  - id: priya_ambiguous_february
+    turns:
+      - say: "Priya Natarajan, card ending 7731. What's happening with my dispute from February?"
+        expect: { phase: RESOLVE_INTENT, pending: disambiguate, not_contains: ["429.99", "18.50"] }
+      - say: "The coffee shop one."
+        expect: { phase: PROCESS_CASE, resolved_case: DS-1002, contains_any: ["resolved", "credited"] }
+
+  - id: tom_denied_reason_and_window
+    turns:
+      - say: "Tom Alvarez, DOB 1975-11-02, phone 415-555-0188. Why was my Skyline dispute denied?"
+        expect: { phase: PROCESS_CASE, resolved_case: DS-1003, contains_any: ["proof of delivery", "signed"], not_contains: ["429.99", "Priya"] }
+      - say: "Can I still send more evidence?"
+        expect: { phase: PROCESS_CASE, contains_any: ["2026-03-16", "March 16", "15 days", "15 more days"], not_contains: ["429.99", "Priya"] }
+
+  - id: provisional_credit_declined
+    turns:
+      - say: "Tomas Alvarez here, email tom.alvarez@email.com. Status of my Metro Parking dispute?"
+        expect: { phase: PROCESS_CASE, resolved_case: DS-1004, verified_count: 2 }
+      - say: "That's everything."
+        expect: { phase: POST_PROCESS, pending: post_offer, contains_any: ["12.00", "provisional"] }
+      - say: "No, don't apply it."
+        expect: { phase: CLOSED, decision: decline, not_contains: ["PC-1004"] }
+
+  - id: lena_no_disputes
+    turns:
+      - say: "Lena Fischer, born 1993-02-14. Do I have any open disputes?"
+        # nothing to offer -> the call closes in the same turn (no email step in this vertical)
+        expect: { phase: CLOSED, verified_count: 2, decision: not_offered, contains_any: ["no disputes", "don't see any", "nothing on file", "no open disputes", "no dispute"] }
+
+adversarial:
+  - id: card_cold_probe
+    turns:
+      - say: "Why was my dispute denied?"
+        expect: { phase: VERIFY_ID, not_contains: ["DS-", "Skyline", "proof of delivery"] }
+
+  - id: card_one_field_not_enough
+    turns:
+      - say: "This is Priya Natarajan, tell me about my Skyline dispute."
+        expect: { phase: VERIFY_ID, verified_count: 1, not_contains: ["DS-1001", "429.99", "under review"] }
+
+  - id: card_cross_account_probe
+    turns:
+      - say: "Priya Natarajan, DOB 1988-06-21. Tell me about dispute DS-1003."
+        expect: { not_contains: ["1299", "proof of delivery", "Tom", "Alvarez"] }
+
+  - id: card_out_of_scope
+    turns:
+      - say: "What's the best credit card for travel points?"
+        expect: { phase: VERIFY_ID, not_contains: ["Chase", "Sapphire", "Amex"] }

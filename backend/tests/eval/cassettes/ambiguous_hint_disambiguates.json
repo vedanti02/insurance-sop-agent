@@ -1,0 +1,186 @@
+{
+ "0434fae9e0e8ccf7b4f76907": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": "January",
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": "650-521-2836",
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "general_claim_question",
+  "new_case_request": false,
+  "question": "I have a question about my healthcare claim from January.",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "0edb1be37aad4c1ec8701df8": "Thank you, your identity is confirmed. I see more than one healthcare claim from January on file. One is from January 2026 and was denied, and the other is from January 2025 and is closed. Could you tell me which of these you\u2019d like to talk about?",
+ "1fa85216bec0def5210e272d": "Thanks for letting me know you\u2019re calling about your closed healthcare claim from January 2025. I\u2019m pulling that up now. This claim is closed and was settled, with the insurer paying out the finalized amount. Is there anything else about this claim I can help with?",
+ "37742467b9b3f4b533e68d5d": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": "January",
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": "650-521-2836",
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "general_claim_question",
+  "new_case_request": false,
+  "question": "I have a question about my healthcare claim from January.",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "43012b0df1f4efcbf8c18a3c": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": "CL-2011",
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": "January 2025",
+   "status": "closed"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "4808a7258a4b9dba802110d0": "Thanks, I\u2019ve confirmed your identity. I see there\u2019s more than one healthcare claim from January on file. One is from January 2026 and was denied, and the other is from January 2025 and is closed. Could you tell me which one you\u2019d like to talk about?",
+ "542173a7dc7b9f61e0bb0cd0": "Thank you for clarifying that you're calling about your closed healthcare claim from January 2025. I'm pulling up the details for that claim now. The claim was settled, and the insurer paid out the finalized amount. Is there anything else about this claim I can help with?",
+ "87e37cf2bec4ee556bd061b9": "Thank you for clarifying that you\u2019re asking about your closed healthcare claim from January 2025. I\u2019m pulling up those details now. This claim has been settled, and the insurer paid the finalized amount. Is there anything else about this claim I can help with today?",
+ "966d10d17e218bcf52a90357": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": "January",
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": "650-521-2836",
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "general_claim_question",
+  "new_case_request": false,
+  "question": "I have a question about my healthcare claim from January.",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "b2df62b4dbcba297791ae9da": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": "CL-2011",
+   "case_type": "healthcare",
+   "period": "January 2025",
+   "status": "closed"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "d5acc9403499fabea1b16e36": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": "CL-2011",
+   "case_type": "healthcare",
+   "period": "January 2025",
+   "status": "closed"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "f24c6bac4fce98317ce5e8c7": "Thanks, your identity is confirmed. I see two healthcare claims from January on file: one from January 2026 and another from January 2025. Which of these would you like to discuss?"
+}

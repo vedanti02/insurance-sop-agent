@@ -1,0 +1,312 @@
+{
+ "160c3857ddcc2cbd8dcb795c": "I'm really sorry you're in this situation. If you aren't able to get the requested diagnosis report or any related records, the next step is to have a human claims representative review your file for any possible manual options. Would you like me to connect you with someone who can take a closer look at your case?",
+ "1aa6fd934b816b48c9cc2fec": "I understand how upsetting this situation is, and I\u2019m sorry you\u2019re stuck without any way to get those records. Since you can\u2019t provide the requested item or any reasonable substitute, the next step is to have a human claims representative review your file for possible manual options. Would you like me to connect you with someone who can take a closer look at your case?",
+ "269ade875296a25593a0739c": "I understand how frustrating this must be for you, and I\u2019m sorry you\u2019re in this situation. We ask for these records to keep your information safe and to make sure claims are handled fairly. Since you aren\u2019t able to get the report or any substitute documents, the next step is for a human claims representative to review your file and see if there are any manual options. Would you like me to connect you with someone who can help with that?",
+ "2a352f9ec32228e2e4e2c532": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": "March 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": "diagnosis report",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Ma Tian",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "How to proceed without the diagnosis report since the clinic closed?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "30d5552ee56f2175a1352d2c": "Thanks, I've confirmed your identity. I have your healthcare claim from March 2026 here. This claim was denied because the submitted materials did not include the treating provider diagnosis report. Is there anything else you\u2019d like to discuss about this claim?",
+ "32258625d496e981432fc280": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": "diagnosis report",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "document_submission",
+  "new_case_request": false,
+  "question": "How can I submit documents if I cannot get the diagnosis report?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "341ab69d732dea15e4c0ab51": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1964-09-10",
+   "email": null,
+   "full_name": "Ma Tian",
+   "id_last4": "6688",
+   "phone": null,
+   "policy_number": "POL-8836"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my healthcare claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "3b2248a4767f8fa4dc32900d": "I can hear how frustrating that must be, and I\u2019m sorry you\u2019re dealing with it. If you can\u2019t get the exact diagnosis report, the next step is to try requesting a replacement copy from the provider, facility, or lab if possible. If you only have part of the records or any other documents related to the same treatment, you can send those in with a short note explaining what\u2019s missing. That way, your file can be reviewed without losing track of what\u2019s still needed. Is there anything else I can help with on this claim?",
+ "42b5a68471e291fef918a6ff": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1964-09-10",
+   "email": null,
+   "full_name": "Ma Tian",
+   "id_last4": "6688",
+   "phone": null,
+   "policy_number": "POL-8836"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my healthcare claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "4e5684276e13fb7957db66a3": "I\u2019m really sorry this situation is so frustrating. If you can\u2019t get the exact diagnosis report because the clinic closed, the next best step is to try to request a replacement copy from any related provider, facility, or lab that might have records tied to your treatment. If you only have partial records, you can submit what you have along with a short note explaining what\u2019s missing. That way, your file can still be reviewed without losing track of the missing item. Is there anything else about this claim I can help with?",
+ "68a51dbd37cb14f1e88cc4c5": "I understand how upsetting this must be for you. If you truly can\u2019t get the diagnosis report or any related records, the next step is to have a claims representative review your file with you to see if there are any reasonable alternatives that could support your claim. Is there anything else about this claim that I can help with right now?",
+ "6ebf96a93be0fb4c00787441": "Thanks for confirming your details, Ma Tian. I\u2019ve pulled up your healthcare claim from March 2026, and I see that it was denied. The reason given is that the submitted materials did not include the treating provider\u2019s diagnosis report. Is there anything else about this claim I can help with right now?",
+ "71293c0829224483086d431b": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": "any documents from the clinic",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "document_submission",
+  "new_case_request": false,
+  "question": "How can I submit documents if I can't get anything from the clinic?",
+  "refusal": true,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "983d9570733edb42a1b5fca5": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": "March 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": "treating provider diagnosis report",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "What can I do since I cannot get the diagnosis report because the clinic closed?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "996b29121b1feea9110633c1": "I\u2019m sorry you\u2019re dealing with this, especially since the clinic has closed. The reason we need the diagnosis report is to make sure your information stays secure and the claim is reviewed properly. If you can\u2019t get the exact report, the next step is to try to request a replacement copy from the provider, facility, or lab if possible. If that\u2019s not an option, you can send in any related records you do have, along with a short note explaining what\u2019s missing, so a claims representative can review your file. Is there anything else about this claim I can help with right now?",
+ "9aae42105ac18bc8501a5649": "Thanks for confirming your details, Ma Tian. I\u2019ve pulled up your healthcare claim from March 2026, and I see it\u2019s currently denied. The reason given is that the submitted materials did not include the treating provider diagnosis report. Is there anything else about this claim I can help with?",
+ "9e7164599928fb7c089b3459": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": "all",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "document_submission",
+  "new_case_request": false,
+  "question": "What can I do if I cannot get any documents from the provider?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "a13c056b4fcb7626294d24b1": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": "March 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": "diagnosis report",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "document_submission",
+  "new_case_request": false,
+  "question": "How to submit documents if diagnosis report is unavailable due to clinic closure?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "cd5c51991c883476887d19ed": "I understand how frustrating that must be. If you can't get the exact diagnosis report, the best next step is to try requesting a replacement copy from the provider or facility, if possible. If that's not an option, you can send in any related records you do have, along with a short note explaining what's still missing. Would you like help with the next steps for submitting what you have?",
+ "cde68aa628327d2fd8bec07d": "I hear how difficult this must be, and I\u2019m sorry you\u2019re in this position. Since you can\u2019t get the diagnosis report or any substitute records, the next step is to have a human claims representative review your file to see if there are any manual options available. Would you like me to arrange for someone to reach out and help you with this?",
+ "d01283ae55b6990813f324ef": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1964-09-10",
+   "email": null,
+   "full_name": "Ma Tian",
+   "id_last4": "6688",
+   "phone": null,
+   "policy_number": "POL-8836"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my healthcare claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "f42ece97afcef45b97244110": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": "diagnosis report",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "next_steps",
+  "new_case_request": false,
+  "question": "What are the next steps if I cannot get the diagnosis report?",
+  "refusal": true,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

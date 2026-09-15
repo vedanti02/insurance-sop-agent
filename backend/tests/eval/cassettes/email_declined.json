@@ -1,0 +1,277 @@
+{
+ "02e2e8e9e3785e27da5753c3": "Thanks for letting me know, Margaret. I can email you a summary of what we discussed today, including your account details and the outcome of your dental claim, to the address we have on file. The summary will mention that your dental claim is completed. Would you like me to send that email?",
+ "07f91cfd4165137f4cb52299": "Thank you for letting me know, Margaret. No email will be sent. If you need anything else in the future, feel free to reach out. Have a wonderful day.",
+ "0bbd618ff2216d9797426e6a": "Thanks for letting me know, Margaret. I can email you a summary of our conversation today to the address we have on file. It will include what we discussed about your account, the status of your dental claim, and any follow-up items. Would you like me to send that summary?",
+ "13beae7cfa0d95a053faeb18": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "1a3a818be270d7234842c0fd": "Thank you, Margaret. Just to confirm, we discussed your account and your dental claim, which is now completed and closed. I can send a summary of this conversation to the email address we have on file\u2014it will include what we talked about, the claim status, and any follow-up items. The summary will say your dental claim is completed. Would you like me to send that email to you?",
+ "2970df9618cceabbc126c425": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "dental",
+   "period": null,
+   "status": "closed"
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "Declining email summary of conversation and claim status",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "2ecdc32505ec20e15450db51": "Thanks, Margaret. Your identity is confirmed now. I see you\u2019re calling about your dental claim, so I\u2019m pulling that up for you. Is there anything else you\u2019d like to discuss about this claim?",
+ "3e02662665ff6bc005ea6734": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "dental",
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "4518d619e67a4e58850a0089": "Thank you, Margaret. Your identity is verified now. I see you\u2019re calling about your dental claim, so I\u2019m pulling that up for you. Is there anything else about this claim you\u2019d like to discuss?",
+ "59f65312a107e8b474af0a52": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "dental",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "66aa9e053dbc343ce92892a5": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "dental",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "712d911c18e9b935fb2915c5": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "dental",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "81d3958b7c4dc969d2b60741": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "8e9aa632acd88b1f3489b310": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "dental",
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "b6e84d6a39913e49886558c9": "Thank you, Margaret. Your identity is confirmed. I see you\u2019re calling about your dental claim, and I\u2019m pulling that up now. Is there anything else you\u2019d like to discuss about this claim?",
+ "bb3e1d7a7e05fd12f7bad0c8": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "dental",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "bd3cd13ce6a817ca2ff6e69c": "Thank you for letting me know, Margaret. No email summary will be sent. If you have any other questions in the future, feel free to reach out. Have a wonderful day!"
+}

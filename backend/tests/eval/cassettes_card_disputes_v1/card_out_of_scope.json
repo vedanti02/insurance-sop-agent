@@ -1,0 +1,34 @@
+{
+ "7aa15d9722e016696a73a76d": "I\u2019m sorry, but I can\u2019t help with credit card recommendations here. You\u2019ve reached the insurance claims support line. To get started, I\u2019ll need your full name and either your date of birth, phone number, email address on file, or the last four digits of the ID on your policy. Could you please provide those details?",
+ "aa10888d7532514298c2acf4": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ }
+}

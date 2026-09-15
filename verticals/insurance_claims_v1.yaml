@@ -1,0 +1,73 @@
+# SOP structure for the insurance claims vertical. Structure only — no prose the caller hears.
+name: insurance_claims_v1
+initial_phase: VERIFY_ID
+
+verification:
+  required_fields: 3
+  fields: [full_name, dob, phone, email, id_last4]
+  mismatch_turns_offer_human: 3
+  mismatch_turns_lock: 5
+  unknown_policy_attempts: 2
+
+scope:
+  strikes_offer_human: 2
+  strikes_handoff: 4
+
+persuasion_budget: 2
+
+# Evaluated before any phase-specific exit, every hop.
+global_exits:
+  - { when: "control.wants_human == true", to: HANDOFF }
+  - { when: "identity.locked == true",     to: HANDOFF }
+  - { when: "control.scope_strikes >= 4",  to: HANDOFF }
+
+phases:
+  VERIFY_ID:
+    style: strict
+    tools_allowed: [verify_identity, find_party, identify_representative, request_consent, check_consent_status, transfer_to_human]
+    disclosable: []
+    must_ground: false
+    exits:
+      - { when: "identity.access_granted == true", to: RESOLVE_INTENT }
+      - { when: "control.done == true",               to: CLOSED }
+
+  RESOLVE_INTENT:
+    style: free
+    tools_allowed: [list_my_claims, find_case, transfer_to_human]
+    disclosable: [case_id, case_type, status, created_at]
+    must_ground: true
+    exits:
+      - { when: "intent.resolved_case != null", to: PROCESS_CASE }
+      - { when: "intent.no_claims == true",     to: POST_PROCESS }
+      - { when: "control.done == true",         to: POST_PROCESS }
+
+  PROCESS_CASE:
+    style: free
+    tools_allowed: [get_claim, get_document_guidance, get_document_alternative, get_followup_guidance, explain_field, list_my_claims, transfer_to_human]
+    disclosable: [case_id, case_type, status, created_at, summary, denial_reason, documents_needed, appeal_deadline,
+                  expected_reimbursement_amount, allowed_max_amount, net_pay, net_fee]
+    must_ground: true
+    exits:
+      - { when: "intent.new_case_request == true", to: RESOLVE_INTENT }
+      - { when: "control.done == true",            to: POST_PROCESS }
+
+  POST_PROCESS:
+    style: strict
+    tools_allowed: [draft_summary, send_summary_email, transfer_to_human]
+    disclosable: [case_id, case_type, status, documents_needed, appeal_deadline]
+    must_ground: true
+    exits:
+      - { when: "post_process.decision in [accept, decline, not_offered]", to: CLOSED }
+      - { when: "control.done == false",                       to: PROCESS_CASE }
+
+  HANDOFF:
+    style: strict
+    tools_allowed: []
+    disclosable: []
+    exits: []
+
+  CLOSED:
+    style: strict
+    tools_allowed: []
+    disclosable: []
+    exits: []

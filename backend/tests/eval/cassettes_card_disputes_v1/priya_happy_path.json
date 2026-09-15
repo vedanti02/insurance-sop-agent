@@ -1,0 +1,229 @@
+{
+ "1186e2ba2cad0be96a57a002": "Thanks for going over everything with me, Priya. Since your dispute is still under review, I can offer a provisional credit of $429.99 for your case with Skyline Electronics. This is a temporary credit while we investigate, and it would be reversed if the merchant's evidence prevails. Do you accept these terms\u2014yes or no?",
+ "146ec753a1bff1e042165886": "Thank you, Priya. The provisional credit of $429.99 for your dispute with Skyline Electronics has now been applied, and you can reference this as PC-1001. Just remember, this credit is temporary and could be reversed if the merchant's evidence is accepted. If you have any more questions or need help in the future, don\u2019t hesitate to reach out. Take care and have a great day.",
+ "1848ba1ba7fd1a28da201db8": "Thank you, Priya. The provisional credit for your dispute has been applied under reference PC-1001, and just a reminder, this credit is temporary and could be reversed if the merchant\u2019s evidence prevails. We appreciate your patience while we complete the review. Take care, and please call us anytime if you need more help.",
+ "2f156c9a43cc7c156d6d9e0c": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "June 21 1988",
+   "email": null,
+   "full_name": "Priya Natarajan",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "dispute_status",
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "31bad45dd07103c351afdb0c": "Thanks for asking, Priya. For your dispute, we\u2019ll need an order confirmation that shows the merchant, your order number, the items, the amount, and the date you placed the order. A screenshot of your confirmation email is fine as long as all that information is clear. We\u2019ll also need delivery tracking that shows the carrier, tracking number, and the last status\u2014especially if it shows the item wasn\u2019t delivered or went somewhere else. You have until April 4th to get these documents to us. Is there anything else I can help you with on this?",
+ "4a83dd55a3b8b9c706719682": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "429.99",
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": null,
+   "status": "under_review"
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "provisional_credit",
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "4c0c8118e389aefa53c742e1": "Thanks, Priya. Your identity is confirmed now. I have your dispute for $429.99 with Skyline Electronics from February 3rd, which is currently under review because you reported the item was not received. Is there anything else about this dispute I can help with?",
+ "8d0d7eeb1e334d1b1151fa3e": "Thanks, Priya. I\u2019ve confirmed your identity. I have your dispute for $429.99 with Skyline Electronics from February 3rd, which is currently under review because you reported that you didn\u2019t receive the item. Is there anything else you\u2019d like to discuss about this dispute?",
+ "9f233620fb43c73cc854e5e5": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "b44f21dee7d7326a274f5ad3": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "429.99",
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "provisional_credit",
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "bd371c4e8959b1fc336ad578": "Thanks for asking, Priya. For your dispute, we need two things: an order confirmation that shows the merchant, order number, items, amount, and date placed\u2014this can be a screenshot if everything is clear\u2014and delivery tracking that lists the carrier, tracking number, and the last status, especially if it shows the item wasn't delivered or went elsewhere. Is there anything else about this dispute I can help with?",
+ "c3ddd144198829ecdfee6275": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "429.99",
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": "February 3rd",
+   "status": "under_review"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "evidence_submission",
+  "new_case_request": false,
+  "question": "What evidence do I need to send for the dispute?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "cfde247940c6ff3d9bd80c4e": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "429.99",
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": "February",
+   "status": "under_review"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "evidence_submission",
+  "new_case_request": false,
+  "question": "What evidence do I need to send for the dispute?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "d3e9ee894c0bff1fec5b0a88": "Thanks for confirming, Priya. The provisional credit of $429.99 for your dispute with Skyline Electronics has been applied, and you can reference PC-1001 if you need to. Just remember, this credit is temporary and could be reversed if the merchant's evidence prevails. If you have any more questions, we're always here to help. Have a great day!",
+ "d5a640751789cae9fa793a7c": "Before we finish up, I can offer a provisional credit of $429.99 for your dispute with Skyline Electronics. This is a temporary credit while we investigate your claim, and it would be reversed if the merchant provides evidence that resolves the dispute in their favor. Do you accept these terms?",
+ "e6c6051144766187a9c10940": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "fa1869d15840c282653fd954": "Thank you, Priya. The provisional credit for your dispute has been applied under reference PC-1001. Just remember, this credit is temporary and could be reversed if the merchant\u2019s evidence is accepted. If you have any other questions in the future, please don\u2019t hesitate to reach out. Take care."
+}

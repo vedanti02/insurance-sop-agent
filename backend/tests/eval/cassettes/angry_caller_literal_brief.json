@@ -1,0 +1,278 @@
+{
+ "178460e32297b0150e9283d1": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my claim denied?",
+  "refusal": true,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "1f68c9a0f39388c978930d60": "Thank you, Margaret. Your identity is now confirmed. I see you\u2019re asking about your denied healthcare claim, and I\u2019m pulling up those details now. The claim was denied because the review file did not include the pathology report and the treating provider office note. Is there anything else I can help you with on this claim?",
+ "21d7875419ccd2c4ea43631b": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "32126c7df7ddf013b78f98dc": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": null,
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "35a3705df8bd4f19e3cc06a6": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my claim denied?",
+  "refusal": true,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "4457fde71c5fafe5419c90af": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "6851fceb92f56a85da86b52d": "Thank you, Margaret. I see you've given your full name, and I've made a note about your question regarding your claim\u2014we'll get to that as soon as we've finished verifying your identity. Could you please provide two of the following: your date of birth, the phone number on file, the email address on file, or the last four digits of the ID on your policy?",
+ "74bc4d59fcc2aa6a3951b87d": "Thank you, Margaret, I\u2019ve got your full name noted. I also see you\u2019re calling about a claim decision, and we\u2019ll get to that as soon as we finish verifying your identity. Could you please provide your date of birth and the last four digits of the ID on your policy?",
+ "8bd1aee7e000dd2afc44c30b": "Thank you, Margaret, I have your name noted. I see why you're calling, and we'll get to that as soon as we've finished verifying your identity. Could you please provide your date of birth and the last four digits of the ID on your policy?",
+ "a129637470b6a53f512e2e20": "Thank you for confirming your details, Margaret. I know this process can be frustrating, but it\u2019s in place to protect your privacy. I\u2019m pulling up your denied healthcare claim now. Your claim was denied because the review file did not include the pathology report and the treating provider office note. Is there anything else about this claim you\u2019d like to go over?",
+ "a6d68115e0ee94ffc5bf842e": "I'm sorry this is frustrating, and I do understand you want answers about your claim. To keep your personal information safe, I have to confirm your identity before I can discuss any details. The full name given didn\u2019t match what\u2019s on file, so I\u2019ll need you to double-check that, or you can give me your date of birth, phone number on file, email address on file, or the last four digits of the ID on your policy. Which of those would you like to provide?",
+ "b3b4707fade2ad05b772717e": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "c0e449d0ed7424cfb75b6438": "I hear you're frustrated, and I'm sorry this process is upsetting. Verifying your identity is required to protect your account before I can discuss any claim details. I have your name, and just need your date of birth and the last four digits of the ID on your policy to continue. Can you provide those now?",
+ "dde999d5e3aaa2edf9e9d12e": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": null,
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "eb56b9fb7cff68d6ea91b6ad": "I hear your frustration, and I\u2019m sorry this feels so difficult. To keep your information safe, I can\u2019t share any claim details until I\u2019ve confirmed your identity. I do have your name, but I\u2019ll need your date of birth and the last four digits of the ID on your policy. Could you give me those two details now?",
+ "f10e5388f362cf73ffe5f856": "Thank you for confirming your information. Your identity is now verified. I understand you\u2019re upset about your claim being denied, and I\u2019m pulling up the details right now. The claim was denied because the review file did not include the pathology report and the treating provider\u2019s office note. Is there anything else about this claim you\u2019d like to go over?",
+ "f24110a46753a98666ea54ac": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my claim denied?",
+  "refusal": true,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "f99230c292e01cf3d9fc496c": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": null,
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

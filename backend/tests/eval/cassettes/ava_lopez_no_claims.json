@@ -1,0 +1,97 @@
+{
+ "2d3895044c5616d37b9d86a7": "Thank you, Ava, your identity is verified. Right now, there are no claims on file for your policy. I can send you an email summary of what we discussed today, including that there are no claims on file as of March 1, 2026. Would you like me to send that summary to the email address we have for you?",
+ "338f7fcd065aacca85029d4e": "Thanks for checking in today. We talked about your current claim status, and at this time, there are no claims on file for you. I can email you a summary of what we discussed and the outcome, sent to the address we have for you. Would you like me to send that summary?",
+ "380ff3d7c800d9cbb9731c9d": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1990-08-21",
+   "email": null,
+   "full_name": "Ava Lopez",
+   "id_last4": "9180",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "Any update on my claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "3b41913bad4a4cf00928b4df": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1990-08-21",
+   "email": null,
+   "full_name": "Ava Lopez",
+   "id_last4": "9180",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "Any update on my claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "43b2b0fae842acd89e9b1c96": "Thanks, Ava. I\u2019ve confirmed your identity. Right now, there are no claims on file for your account. Would you like me to email you a summary of this conversation, including what we discussed and your current claim status? It\u2019ll just be a quick overview sent to the address we have for you. Would you like that?",
+ "4df871f8153b2a1f9a8fd184": "Thanks for checking in today. As of March 1, 2026, we talked about your current claim status, and at this time, there are no claims on file for you. I can email you a summary of this conversation to the address we have for you, which will show what we discussed and confirm there are no claims on file. Would you like me to send that summary?",
+ "6b86edbe69835be2168c2118": "Thanks for confirming your details, Ava. I\u2019ve checked and there are no claims on file for your policy right now. I can send you an email summary of this conversation to the address we have for you. It will include what we discussed and confirm there are no claims open at this time. Would you like me to send that summary?",
+ "9d42f1361c35a06adbcf3cba": "Thanks for checking in today. As of now, there are no claims on file for you, so there isn\u2019t a status update to provide.\n\nWould you like me to email you a summary of this conversation, including what we discussed and the current claim status, to the address we have on file?",
+ "a1b8d14f3dfefdc63b02f58b": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1990-08-21",
+   "email": null,
+   "full_name": "Ava Lopez",
+   "id_last4": "9180",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "Any update on my claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

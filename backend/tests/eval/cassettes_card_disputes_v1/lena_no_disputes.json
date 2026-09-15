@@ -1,0 +1,34 @@
+{
+ "75497c54b51bf2f47bf4742e": "Thanks for checking in, Lena. As of today, there are no disputes on file for your account. If you need help with anything else in the future, just let us know. Have a great day!",
+ "d77e97fd20c0cbf776125ae1": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1993-02-14",
+   "email": null,
+   "full_name": "Lena Fischer",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "dispute_status",
+  "new_case_request": false,
+  "question": "Do I have any open disputes?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

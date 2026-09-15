@@ -1,0 +1,278 @@
+{
+ "0489861a32d05a3903be29ce": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "March 15 1985",
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "09e8615b715864d58149de0b": "Thank you, Margaret. I see your name has been noted, and I\u2019ve got your reason for calling about the healthcare claim. Before we get into that, I\u2019ll just need two more pieces of information for verification. Could you please provide your date of birth and the last four digits of the ID on your policy?",
+ "0dd7f9ba9976a5bb4189fa32": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "2d6cf1075bbeffaf51c62a6e": "Thank you, Margaret. I've got your name, and I see you're calling about a denied healthcare claim\u2014I\u2019ll help with that as soon as we finish verifying your identity. Could you please provide your date of birth and the last four digits of the ID on your policy?",
+ "2f895881fbde1c9060545119": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "39dcbe99adbadec71a324b5a": "Thank you, Margaret. I\u2019ve got your name and I see you\u2019re calling about a denied healthcare claim\u2014I\u2019ll help with that as soon as we confirm your identity. Could you please provide two of the following: your date of birth, the phone number on file, your email address on file, or the last four digits of the ID on your policy?",
+ "5426663ba975dc855df991ec": "Thanks, Margaret. Your identity is now verified. I\u2019m pulling up your healthcare claim from January that was denied. The claim was denied because the review file did not include the pathology report and the treating provider\u2019s office note. Is there anything else about this claim I can help with?",
+ "5d76edd0d93daf2eb6b0515e": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": "January",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my healthcare claim from January denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "850ab102c1fbf2049b8b54f3": "Thank you, Margaret. Your identity is now verified. I see you\u2019re asking about your denied healthcare claim from January, and I\u2019m pulling that up now. The claim was denied because the review file did not include the pathology report and the treating provider\u2019s office note. Is there anything else about this claim I can help you with?",
+ "9578189868842b987ceb058d": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "March 15 1985",
+   "email": null,
+   "full_name": "Margaret",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "9a57c545ead860265267af6b": "Thanks, Margaret, your identity is verified now. I see you\u2019re calling about your healthcare claim from January, and I\u2019m pulling that up. The claim was denied because the review file did not include the pathology report and the treating provider office note. Is there anything else about this claim I can help with?",
+ "a0eb0381dab4b98b65b99ebd": "Thanks for giving me your date of birth, Margaret. I\u2019ve also made a note of why you\u2019re calling, and we\u2019ll get to that right after this step. For verification, could you please provide either the phone number or the email address you have on file, or the last four digits of the ID on your policy?",
+ "a6fd8469e5d6cd4fab4ca587": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": "January",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my healthcare claim from January denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "c830c5174b832d634269b768": "Thanks, Margaret, I have your date of birth and your name. I\u2019ve also noted you\u2019re calling about a denied healthcare claim, and I\u2019ll get to that right after we finish verifying your identity. Could you please provide either the phone number or email address on file, or the last four digits of the ID on your policy?",
+ "e2efec6257d4a2ae76bf7d5c": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "March 15 1985",
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "e50a26b985317a338ee09df9": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "edbf007342300c1d26d3700e": "Thanks for providing your date of birth. Some of the information given didn\u2019t match what we have on file, so I can\u2019t complete verification just yet. Could you double-check the full name you gave, or if you prefer, you can give either the phone number, email address on file, or the last four digits of the ID on your policy?",
+ "f47fb7039766e55eb8465eff": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": "January",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "denial_question",
+  "new_case_request": false,
+  "question": "Why was my healthcare claim from January denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

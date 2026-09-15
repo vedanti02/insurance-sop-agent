@@ -1,0 +1,194 @@
+{
+ "3a223071bf8fc134d818653e": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": true
+ },
+ "57b8d553d392aab1b0521a89": "Thank you, David. I see you've shared the reason for your call, and I appreciate you providing those details. For privacy and security, only the policyholder or someone already listed as an authorized representative can discuss the account. If you'd like, I can connect you with a human representative to talk about your options. Would you like me to do that now?",
+ "5c7b6093c2a6c5807ed0bd0b": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "64c0053e777fa7706a5ed55d": "Thank you, David. I have your mother's details confirmed and I see why you're calling. Now I need to request your mother's authorization before we go any further. Please hold for just a moment while I do that.",
+ "7d43c57df6749e85f3994ecf": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "auto",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": {
+   "relationship": "mother",
+   "rep_name": "David Chen"
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "9324e0f6a7a1ff69a99f4c46": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "auto",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": {
+   "relationship": "child",
+   "rep_name": "David Chen"
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "9503fbc0331d15961ad2292f": "Thanks for waiting. Your identity is verified now. I see you\u2019re calling about your mother\u2019s auto claim, and I\u2019m pulling that up for you. Is there anything else about this claim you\u2019d like to discuss today?",
+ "9774aad19aa7883f694d63e4": "Thank you, David. I\u2019ve noted the reason for your call and we\u2019ll get to that right after this step. I\u2019m now requesting your mother\u2019s authorization. Please hold for a moment.",
+ "bdf2a1d50fc85eb4d11cae0a": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "d0c40381f02f69f92eb578e8": "Thanks, David. We\u2019ve confirmed your mother\u2019s identity. I see you\u2019re calling about her auto claim, so I\u2019m pulling that up now. Is there anything else you\u2019d like to discuss about this claim?",
+ "eab3fb5f8af76e94224df8e7": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "auto",
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": {
+   "relationship": "child",
+   "rep_name": "David Chen"
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

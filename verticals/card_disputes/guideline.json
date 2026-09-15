@@ -1,0 +1,12 @@
+{
+  "default_guidance": "Upload evidence through the card app or the dispute portal so it stays attached to the case. Each file should be legible and show the merchant, the date and the amount where they appear.",
+  "evidence_guidance": {
+    "order confirmation": "The order confirmation should show the merchant, the order number, the items, the amount and the date placed. A screenshot of the confirmation email is acceptable if all of those are readable.",
+    "delivery tracking": "The tracking record should show the carrier, the tracking number and the last status, especially if it shows the item was never delivered or was delivered elsewhere.",
+    "receipt": "The receipt should show the merchant, the date, the amount and the last four digits of the card if printed."
+  },
+  "evidence_alternative": "If you do not have the exact item, the closest substitute is a statement from the merchant or any written confirmation of the problem; a short note describing what happened and when can accompany it.",
+  "window_rule": "Evidence must arrive before the dispute window ends; after that date the case can only be reopened by a specialist.",
+  "provisional_credit_terms": "A provisional credit is a temporary credit for the disputed amount while the investigation runs. It is reversed if the merchant's evidence prevails.",
+  "processing_time": "usually within 10 business days after the evidence is received"
+}

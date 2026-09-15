@@ -1,0 +1,56 @@
+[
+  {
+    "case_id": "DS-1001",
+    "party_id": "C1",
+    "merchant": "Skyline Electronics",
+    "amount": "429.99",
+    "transaction_date": "2026-02-03",
+    "status": "under_review",
+    "reason": "item not received",
+    "evidence_needed": ["order confirmation", "delivery tracking"],
+    "dispute_window_ends": "2026-04-04",
+    "provisional_credit_amount": "429.99",
+    "provisional_credit_status": "offered"
+  },
+  {
+    "case_id": "DS-1002",
+    "party_id": "C1",
+    "merchant": "Cafe Roma",
+    "amount": "18.50",
+    "transaction_date": "2026-02-20",
+    "status": "resolved",
+    "reason": "duplicate charge",
+    "outcome": "credited in full",
+    "evidence_needed": [],
+    "dispute_window_ends": null,
+    "provisional_credit_amount": null,
+    "provisional_credit_status": "none"
+  },
+  {
+    "case_id": "DS-1003",
+    "party_id": "C2",
+    "merchant": "Skyline Electronics",
+    "amount": "1299.00",
+    "transaction_date": "2026-01-15",
+    "status": "denied",
+    "reason": "item not received",
+    "denial_reason": "the merchant provided proof of delivery signed by the cardholder",
+    "evidence_needed": [],
+    "dispute_window_ends": "2026-03-16",
+    "provisional_credit_amount": "1299.00",
+    "provisional_credit_status": "reversed"
+  },
+  {
+    "case_id": "DS-1004",
+    "party_id": "C2",
+    "merchant": "Metro Parking",
+    "amount": "12.00",
+    "transaction_date": "2026-02-27",
+    "status": "under_review",
+    "reason": "charged twice",
+    "evidence_needed": ["receipt"],
+    "dispute_window_ends": "2026-04-28",
+    "provisional_credit_amount": "12.00",
+    "provisional_credit_status": "offered"
+  }
+]

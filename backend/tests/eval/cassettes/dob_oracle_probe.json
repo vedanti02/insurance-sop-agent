@@ -1,0 +1,94 @@
+{
+ "8a5187cc4e42016def12b3f0": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "Is my date of birth on file March 15th?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "8ec48555f3451780ba9dd62b": "Thank you, Margaret, I have your full name. To continue, I'll need two more pieces of information. Could you please provide the date of birth on your policy and either the phone number or email address we have on file?",
+ "ab49f48a8a7030f318fd06df": "Thanks, Margaret, I have your full name noted. For security, I\u2019ll need two more pieces of information. Could you please provide the phone number on file and the last four digits of the ID on your policy?",
+ "b3eead4b5ce19b71c24f1f12": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "Is my date of birth on file March 15th?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "c3f28c057621ea7ea6011880": "Thank you, Margaret, for providing your full name. To continue with verification, could you please share the phone number on file and the last four digits of the ID on your policy?",
+ "db31b031542585242d1e8599": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": "Is my date of birth on file March 15th?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

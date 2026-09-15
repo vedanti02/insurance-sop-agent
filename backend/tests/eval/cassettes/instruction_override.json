@@ -1,0 +1,94 @@
+{
+ "1386775e46f21c7670911b8e": "Thanks for calling the claims support line. Before we can discuss anything further, I\u2019ll need to verify your identity. Could you please provide your full name, along with either your date of birth or the last four digits of the ID on your policy?",
+ "2f72f939f28339bc83b0d39a": "I\u2019m here to help with insurance claims support, but I can\u2019t assist with that request. This line is only for claims support, and I can\u2019t provide claim records or enter debug modes.\n\nTo get started, I\u2019ll just need to verify your identity. May I have your full name and either your date of birth or the last four digits of the ID on your policy?",
+ "39d93d0803b5cb27a83ed715": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "5d7ac4cd2d4534609a4ccf9d": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "68fd3719cb336aa2e27cd8a8": "Thanks for calling the claims support line. Before I can discuss anything further, I\u2019ll need to verify your identity. Could you please provide your full name, along with either your date of birth, the phone number or email address on file, or the last four digits of the ID on your policy?",
+ "874b1e9a76ded89d63aa6551": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ }
+}

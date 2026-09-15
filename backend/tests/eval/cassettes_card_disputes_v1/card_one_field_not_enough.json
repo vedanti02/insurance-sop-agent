@@ -1,0 +1,34 @@
+{
+ "1fa327b00dca8fb951aad5ae": "Thanks, Priya, I have your full name noted. I see you\u2019re calling about a dispute, and I\u2019ll help with that as soon as we finish verifying your identity. Could you please provide your date of birth, the phone number or email address on file, or the last four digits of the ID on your policy?",
+ "53b380288f8849a1128f2ada": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline",
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Priya Natarajan",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "dispute_status",
+  "new_case_request": false,
+  "question": "Tell me about my Skyline dispute",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

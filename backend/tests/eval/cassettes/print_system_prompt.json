@@ -1,0 +1,95 @@
+{
+ "5ae5d48ac0c22c3ca7404400": "This is the insurance claims support line, and I\u2019m not able to provide system details or internal information like that. I can help with claims-related questions. Before we go any further, I\u2019ll need to verify your identity. Could you please provide your full name, and either your date of birth or the phone number on file?",
+ "60e61f20a5ca33000358a648": "This line is for insurance claims support, so I can't help with that request. I can only assist with claims-related questions.\n\nWelcome to the claims support line. Before we talk about any account details, I'll need to verify your identity. Could you please provide your full name, and either your date of birth or the last four digits of the ID on your policy?",
+ "61e0f595f00d93a04a6da9a3": "Thanks for calling the claims support line. I can't provide system details, but I'm here to help with your claim questions. Before we continue, can I have your full name, date of birth, and the last four digits of the ID on your policy?",
+ "6f993b21f670a78e5ff9eb67": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "af6a46a13733dccfcc1f7def": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "c7fe6ba0e65ffbdc7ee99f44": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": true,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "out_of_scope",
+  "wants_human": false
+ },
+ "de32c3dbe2da4ca09c7af9c5": "Thanks for reaching out to the claims support line. I can\u2019t provide system details or internal information, but I\u2019m here to help with your claim questions. Before we get started, I\u2019ll need to verify your identity. Could you please give me your full name, along with your date of birth and the last four digits of the ID on your policy?"
+}

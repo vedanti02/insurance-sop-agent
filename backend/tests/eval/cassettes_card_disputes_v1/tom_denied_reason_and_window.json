@@ -1,0 +1,99 @@
+{
+ "16a8b9e0ec8145cf3f0ce1a4": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "1299.00",
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": "January 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "evidence_submission",
+  "new_case_request": false,
+  "question": "Can I still send more evidence?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "3b3bce977f355ddf9f66ea1b": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "1299.00",
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": "January 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "evidence_submission",
+  "new_case_request": false,
+  "question": "Can I still send more evidence?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "54274d3115783f3d18d000e7": "Thanks for confirming your information. I\u2019ve pulled up your Skyline Electronics dispute for $1299.00 from January 2026. The dispute was denied because the merchant provided proof of delivery signed by the cardholder. Is there anything else about this dispute I can help with?",
+ "5b2c5cd24fc4f29e9ce27442": "Thanks for confirming your information. I have your Skyline Electronics dispute for $1299.00 from January 2026 here. This case was denied because the merchant provided proof of delivery signed by the cardholder. Is there anything else about this dispute I can help with?",
+ "73c8873c05a83e25745fa3a6": "Thanks for asking about that. You can still send in more evidence for this dispute, but it must arrive before March 16, 2026. After that date, only a specialist can reopen the case. Is there anything else you\u2019d like to go over about this dispute?",
+ "bacdb27f3aed5809964cf954": "Thanks for asking. You can still send in evidence for your Skyline Electronics dispute, as the window to submit more is open for 15 more days. Just make sure it arrives before the deadline. Is there anything else about this dispute I can help with?",
+ "bb3f4c86461c08cf54bc7c19": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1975-11-02",
+   "email": null,
+   "full_name": "Tom Alvarez",
+   "id_last4": null,
+   "phone": "415-555-0188",
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "dispute_reason",
+  "new_case_request": false,
+  "question": "Why was my Skyline dispute denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}

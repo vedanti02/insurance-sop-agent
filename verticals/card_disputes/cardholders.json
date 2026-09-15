@@ -1,0 +1,33 @@
+[
+  {
+    "party_id": "C1",
+    "name": "Priya Natarajan",
+    "policy_number": "ACC-4410",
+    "dob": "1988-06-21",
+    "id_type": "card_last4",
+    "id_last4": "7731",
+    "phone": "+14155550142",
+    "email": "priya.n@email.com"
+  },
+  {
+    "party_id": "C2",
+    "name": "Tom Alvarez",
+    "name_aliases": ["Tomas Alvarez"],
+    "policy_number": "ACC-2207",
+    "dob": "1975-11-02",
+    "id_type": "card_last4",
+    "id_last4": "0925",
+    "phone": "+14155550188",
+    "email": "tom.alvarez@email.com"
+  },
+  {
+    "party_id": "C3",
+    "name": "Lena Fischer",
+    "policy_number": "ACC-9013",
+    "dob": "1993-02-14",
+    "id_type": "card_last4",
+    "id_last4": "4488",
+    "phone": "+14155550110",
+    "email": "lena.f@email.com"
+  }
+]

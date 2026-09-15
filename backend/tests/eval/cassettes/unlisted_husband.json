@@ -1,0 +1,103 @@
+{
+ "0fce6b8a6619c8e99e7195fe": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "What is happening with Margaret Chen's denied claim?",
+  "refusal": false,
+  "representative": {
+   "relationship": "husband",
+   "rep_name": null
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "1c4ef3334a0a5346209a5478": "Thank you for letting me know why you're calling, and I'm sorry to hear about Margaret. Before I can discuss anything, I do need to confirm your own full name so I can check if you're listed as a representative on the policy. Could you please provide your full name?",
+ "1d56e3b424d03ca1a756e520": "Thank you for letting me know why you're calling, and I'm sorry to hear about Margaret. For privacy reasons, I can only discuss an account with the policyholder or someone officially listed as a representative. Could you please provide your full name so I can check if you're authorized to speak on her behalf?",
+ "3dc31d8656694ae79359ae01": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "What is happening with Margaret Chen's denied claim?",
+  "refusal": false,
+  "representative": {
+   "relationship": "husband",
+   "rep_name": null
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "9990df6c9ee13eb3c1f40c6f": {
+  "caller_role_claim": "representative",
+  "case_hints": {
+   "case_id": null,
+   "case_type": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "anxious",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": "POL-9921"
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": false,
+  "question": "What is the status of Margaret Chen's denied claim?",
+  "refusal": false,
+  "representative": {
+   "relationship": "husband",
+   "rep_name": null
+  },
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "c270148b71a68e2a30a3efe8": "Thank you for providing your name, date of birth, and the last four digits of the ID on your policy. I\u2019ve noted you\u2019re calling about your wife\u2019s claim and I\u2019ll help with that in just a moment. We\u2019ve finished verifying your identity. How can I help you today?"
+}

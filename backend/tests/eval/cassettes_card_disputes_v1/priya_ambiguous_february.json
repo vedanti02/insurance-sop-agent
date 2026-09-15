@@ -1,0 +1,67 @@
+{
+ "04d28c75f1218955615e03d9": "Thanks, Priya, your identity is verified now. I see more than one dispute from February: one with Skyline Electronics and another with Cafe Roma. Which of these are you calling about?",
+ "5ab09075b45f1a5f76013eaf": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": "February",
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Priya Natarajan",
+   "id_last4": "7731",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "dispute_status",
+  "new_case_request": false,
+  "question": "What is the status of my dispute from February?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "83f6ad6cd3eaf05df729efb0": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "18.50",
+   "case_id": "DS-1002",
+   "case_type": null,
+   "merchant": "Cafe Roma",
+   "period": "February 2026",
+   "status": "resolved"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "dispute_status",
+  "new_case_request": false,
+  "question": "Which dispute is the caller referring to?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "88d2f36bd5c77cae84a0b0db": "Thanks for clarifying, Priya. I\u2019m pulling up your Cafe Roma dispute now. That case has been resolved and you were credited in full for the duplicate charge. Is there anything else about this dispute I can help with?",
+ "9cfa4aa5d3c67746c9e4fb0d": "Thanks, Priya. I\u2019ve confirmed your identity. I see two disputes from February: one for Skyline Electronics at $429.99, which is under review, and another for Cafe Roma at $18.50, which is resolved. Which one would you like to talk about?"
+}

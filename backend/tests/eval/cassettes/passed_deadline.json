@@ -1,0 +1,94 @@
+{
+ "1fbcff116292d5bd7e0c2961": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "document_submission",
+  "new_case_request": false,
+  "question": "How soon do I need to submit the documents for my denied healthcare claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "7c4604c34b9bd1a53f3088bb": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "case_id": null,
+   "case_type": "healthcare",
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "document_submission",
+  "new_case_request": false,
+  "question": "How soon do I need to submit the documents for my denied healthcare claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "7c67cff8899c38ca7f342e12": "Thanks, Margaret. Your identity is verified now. I have your healthcare claim from January 2026 here, and it was denied because the pathology report and the treating provider\u2019s office note were missing from the review file.\n\nBoth documents are still needed, and the appeal deadline on record has already passed. If you do submit the missing files, the review process would usually restart, but a claims representative would need to review what options remain since the deadline has passed.\n\nIs there anything else about this claim I can help you with?",
+ "899625683ec4116cb210cc06": "Thanks, your identity is verified now. I\u2019ve pulled up your healthcare claim from January 2026, which was denied because the review file didn\u2019t include the pathology report and the office note. Both of these documents are still needed, and the appeal deadline on record has already passed. Is there anything else I can help with regarding this claim?",
+ "b79cb6a244a3c5542bf832ec": "Thank you, I\u2019ve confirmed your identity. I have your healthcare claim from January 2026 here, which was denied because the pathology report and the office note were missing from your file. The deadline to appeal this decision has already passed, so I can\u2019t confirm any new submission window here. Is there anything else about this claim I can help with?",
+ "e8d84646c50066f0a93e30e2": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": null,
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": "1985-03-15",
+   "email": null,
+   "full_name": "Margaret Chen",
+   "id_last4": "4472",
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "next_steps",
+  "new_case_request": false,
+  "question": "How soon do I need to submit the documents for my denied healthcare claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ }
+}
