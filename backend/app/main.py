@@ -31,9 +31,18 @@ class SendMessage(BaseModel):
 
 
 @app.get("/api/health")
-def health() -> dict:
-    return {"ok": True, "mode": settings.llm_mode, "vertical": settings.vertical,
-            "demo_today": settings.demo_today.isoformat()}
+def health(probe: bool = False) -> dict:
+    out = {"ok": True, "mode": settings.llm_mode, "vertical": settings.vertical,
+           "demo_today": settings.demo_today.isoformat(), "base_url_set": bool(settings.llm_base_url)}
+    if probe and settings.llm_mode == "live":
+        # operational check: can this host reach the model provider with the configured key?
+        try:
+            from openai import OpenAI
+            OpenAI(api_key=settings.llm_api_key, base_url=settings.llm_base_url, timeout=15.0, max_retries=0).models.retrieve(settings.perceive_model)
+            out["provider"] = "ok"
+        except Exception as e:  # noqa: BLE001
+            out["provider"] = f"{type(e).__name__}: {str(e)[:300]}"
+    return out
 
 
 @app.post("/api/sessions")
