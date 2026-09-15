@@ -28,6 +28,9 @@ class Settings:
 
 def load_settings() -> Settings:
     key = os.environ.get("LLM_API_KEY") or os.environ.get("OPENAI_API_KEY")
+    if key:
+        # tolerate a pasted-in value with trailing whitespace or extra lines; a key is one token
+        key = key.strip().splitlines()[0].strip().strip('"').strip("'") or None
     mode = os.environ.get("LLM_MODE", "live" if key else "stub")
     if mode == "live" and not key:
         raise RuntimeError("LLM_API_KEY (or OPENAI_API_KEY) is required when LLM_MODE=live")

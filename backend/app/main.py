@@ -42,22 +42,13 @@ def health(probe: bool = False) -> dict:
             out["provider"] = "ok"
         except Exception as e:  # noqa: BLE001
             chain, cur = [], e
-            while cur is not None and len(chain) < 5:
-                chain.append(f"{type(cur).__name__}: {str(cur)[:120]}")
+            while cur is not None and len(chain) < 4:
+                chain.append(f"{type(cur).__name__}: {str(cur)[:160]}")
                 cur = cur.__cause__ or cur.__context__
-            out["provider"] = " <- ".join(chain)
-        import socket
-        import urllib.request
-        host = (settings.llm_base_url or "https://api.openai.com/v1").split("//")[1].split("/")[0]
-        try:
-            out["dns"] = sorted({a[4][0] for a in socket.getaddrinfo(host, 443)})[:4]
-        except Exception as e:  # noqa: BLE001
-            out["dns"] = f"{type(e).__name__}: {e}"
-        try:
-            req = urllib.request.Request(f"https://{host}/v1/models", headers={"Authorization": f"Bearer {settings.llm_api_key}"})
-            out["stdlib_https"] = urllib.request.urlopen(req, timeout=15).status
-        except Exception as e:  # noqa: BLE001
-            out["stdlib_https"] = f"{type(e).__name__}: {str(e)[:200]}"
+            text = " <- ".join(chain)
+            if settings.llm_api_key:   # never echo the credential, even inside an error message
+                text = text.replace(settings.llm_api_key, "***").replace(settings.llm_api_key[:12], "***")
+            out["provider"] = text
     return out
 
 
