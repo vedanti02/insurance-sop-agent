@@ -91,7 +91,7 @@ What leaked while building it, honestly: the `CaseHints` schema grew two fields 
 
 ## Evaluation
 
-`python tests/eval/run_eval.py --mode live --judge [--vertical card_disputes_v1]` runs the scripted scenarios against the real model, records cassettes, and scores five levels; `--mode replay` reruns them offline and free. Safety is pass/fail on the whole suite.
+From `backend/`, `python tests/eval/run_eval.py --mode live --judge [--vertical card_disputes_v1]` runs the scripted scenarios against the real model, records cassettes, and scores five levels; `LLM_MODE=stub python tests/eval/run_eval.py --mode replay` reruns them offline and free. Replay reports any cassette misses and uses the local fallback rather than contacting a model provider. Safety is pass/fail on the whole suite.
 
 Latest live runs (gpt-4.1-mini perceive, gpt-4.1 respond):
 
