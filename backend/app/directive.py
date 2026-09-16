@@ -217,6 +217,11 @@ def _process(ctx: ToolCtx, d: Directive) -> None:
                      f"pulling that up now (this carries their earlier words forward).")
     elif first:
         parts.append(f"Confirm which {rec} you've pulled up using its identifying details in the facts.")
+    record = next((v for v in bb.bundle.values() if isinstance(v, dict) and "status" in v), {})
+    if first and record.get("status") == "denied":
+        parts.append("Because it was denied, say in the same reply what would be needed to move it forward and any "
+                     "deadline or window date from the facts (with how many days remain) — a good representative "
+                     "volunteers the next step rather than waiting to be asked.")
     if c.ungrounded_question:
         parts.append("The caller's question is in scope but the facts do not cover it. Say plainly that you can't "
                      "confirm those specifics here and offer a human representative. Do not guess.")

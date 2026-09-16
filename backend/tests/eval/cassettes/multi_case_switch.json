@@ -63,7 +63,71 @@
  "3c44e37509f061e762e48ccf": "Thanks for going over everything with me today. I can send a summary to your email on file\u2014it will cover what we discussed, the healthcare claim denial and follow-up steps, and the status of your auto claim. Would you like me to send that summary now?",
  "436a2bbb94eea64930d4775f": "Thanks, I\u2019ve confirmed your identity. I have your healthcare claim from January 2026 here, and it was denied. The reason given is that the review file did not include the pathology report and the treating provider office note. Is there anything else I can help with about this claim?",
  "4b22c148af543b946c5b23a8": "Thanks for asking about your auto claim. I see your auto claim from February is open and still in progress. Is there anything else about this claim I can help with?",
+ "4b4c6ce9da4b67caccea9599": "Thanks for asking about your auto claim. I\u2019m pulling that up now. Your auto claim from February is still open and in progress. Is there anything else about this claim I can help with?",
+ "57805ee5251ff9deec4967cf": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "auto",
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": "Margaret",
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "status_inquiry",
+  "new_case_request": true,
+  "question": "What is the status of my auto claim?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
  "5ecc2cf077b353059c1ebefe": "Great, the summary is on its way to the email address we have for you, m***@email.com. Thanks for your time today, and take care.",
+ "60e3f4c564086fcfc89ce662": "Great, I\u2019ll send the summary to the email address we have on file for you, which is m***@email.com. If you need anything else in the future, just reach out. Take care and have a good day.",
+ "692ad46ee7204a4868ad3a37": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "auto",
+   "merchant": null,
+   "period": "February",
+   "status": "open"
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
  "69bc00a3f314f4e2e812ffd6": "Thank you, Margaret. Before we finish, would you like me to email you a summary of what we discussed today, including the status of your healthcare and auto claims, the reason for the denial, and the next steps? The summary will go to the address we have on file. Would you like to receive this?",
  "6f89e1f5862b4babcdd5015a": {
   "caller_role_claim": null,
@@ -246,6 +310,7 @@
   "wants_human": false
  },
  "a9b7651db81ae07381a04886": "Thanks, Margaret. Your identity is confirmed now. I have your healthcare claim from January 2026 here, and I see it was denied. The reason for the denial is that the review file did not include the pathology report and the treating provider office note. Is there anything else about this claim I can help with?",
+ "b42c4986981c2aef6f118778": "Thanks for going over everything with me today. I can email you a summary of what we discussed\u2014your healthcare claim denial, the missing documents needed, the appeal deadline, and the status of your auto claim\u2014along with the next steps. Would you like me to send this summary to the email address we have on file for you?",
  "be331600f348ac7bb58fc972": "Great, the summary is on its way to the email address we have on file for you. If you need anything else in the future, just let us know. Take care and have a wonderful day.",
  "c376df634d2693f057e717a5": {
   "caller_role_claim": null,
@@ -305,6 +370,37 @@
   "scope": "in_scope",
   "wants_human": false
  },
+ "d06c8eaae9ff291d5eddfdab": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
  "dae50305666dcc5192bfe242": {
   "caller_role_claim": "self",
   "case_hints": {
@@ -335,6 +431,7 @@
   "wants_human": false
  },
  "de4b9bc4a9e3945df23a5a73": "Thanks for asking about your auto claim. I\u2019m pulling that up now. Your auto claim from February is still open and in progress. Is there anything else I can help with about this claim?",
+ "eec6e8fb41cad1c67cdb074d": "Thanks for confirming your details, Margaret. I\u2019ve pulled up your healthcare claim from January 2026. It was denied because the review file didn\u2019t include the pathology report and the treating provider\u2019s office note. To move this forward, you\u2019ll need to submit both documents, and you have 17 days left until the appeal deadline. If you can\u2019t get the exact items, you can try sending replacement copies or any supporting records that clearly connect to the same treatment. Is there anything else about this claim I can help with?",
  "f421857b7b46a569191c33d4": "Thanks for confirming your details, Margaret. I\u2019ve got your healthcare claim from January 2026 here. The claim was denied because the review file did not include the pathology report and the treating provider\u2019s office note. Is there anything else about this claim I can help you with?",
  "fda8d28c34670009f94a934e": {
   "caller_role_claim": "self",

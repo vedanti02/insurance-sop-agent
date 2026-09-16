@@ -1,4 +1,37 @@
 {
+ "0e00bae069ec1d01a49f805e": "Great, I\u2019ll send the summary to the email address we have on file, which is m***@email.com. If you need anything else in the future, just let us know. Take care and have a good day.",
+ "0efcf96384b25cc7fe0a2622": "Thanks, Margaret. I\u2019ve confirmed your identity and pulled up your healthcare claim from January 2026. This claim was denied because the review file didn\u2019t include the pathology report and the treating provider\u2019s office note. To move things forward, those documents are needed\u2014if you don\u2019t have the originals, you can submit replacement copies or the closest supporting records that still connect to the same treatment. The appeal deadline is March 18th, so there are 17 days left to get everything in. Is there anything else about this claim I can help with?",
+ "19d8c2c62f5b856767267d06": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "no",
+  "document_unavailable": null,
+  "done": true,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
  "1fc70b89ce03d0ee10f94928": "Thank you, Margaret. Your identity is confirmed. I have your healthcare claim from January 2026 here, and I see it was denied. The reason for the denial is that the review file did not include the pathology report and the treating provider office note. Is there anything else I can help you with on this claim?",
  "2e0b0cef764e437c69f6fab7": {
   "caller_role_claim": "self",
@@ -61,6 +94,7 @@
   "wants_human": false
  },
  "39f3915fec8e353250b160c5": "Thanks for going over everything with me today. I can send a summary of our conversation to the email address we have on file. It will include what we discussed about your claim denial, the documents needed, and your next steps, along with the upcoming appeal deadline. Would you like me to send that summary?",
+ "3d86d7e2a6921d76d9092b06": "Thanks for talking with me today, Margaret. I can email you a summary of what we discussed, including the reason your healthcare claim was denied, what\u2019s needed to move forward, and your appeal deadline. The summary will also list the follow-up steps for your claim. Would you like me to send that to the email address we have on file?",
  "4857b352cdea6c8a720d5c3b": {
   "caller_role_claim": null,
   "case_hints": {
@@ -90,6 +124,7 @@
   "scope": "in_scope",
   "wants_human": false
  },
+ "50cdd658506fbeb941d6029e": "Once the missing documents are received, the review usually restarts but doesn\u2019t finish instantly. Most of the time, processing takes less than a week, though there can be intake steps and another review cycle before the claim status updates. If the files aren\u2019t complete or clear, the team may reach out for more details before reconsidering the denial. Is there anything else I can clear up for you?",
  "534f8c67d5e53b7dc0942043": "Thanks for asking about the timeline. Once the missing pathology report and office note are received, the review usually restarts, and it typically takes less than a week for processing. Sometimes intake and another review cycle are needed, so it may not be instant. If anything is missing or unclear, the team might reach out for more information before reconsidering the denial. Is there anything else I can help you with on this claim?",
  "592d818606279784af5c66b4": "Thanks for confirming, Margaret. I can email you a summary of what we discussed today, including your claim status and the next steps, to the address we have on file. The summary will mention your claim denial, what documents are needed, and the upcoming appeal deadline. Would you like me to send that now?",
  "5adcf182f8e976591b07daa9": {
@@ -180,6 +215,68 @@
   "intent": null,
   "new_case_request": false,
   "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "9cdbdef703421cd539008cd1": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": "yes",
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "a221580ccc31d219e90eee8b": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": "January 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "next_steps",
+  "new_case_request": false,
+  "question": "How long after I send the documents does it take to process?",
   "refusal": false,
   "representative": null,
   "scope": "in_scope",

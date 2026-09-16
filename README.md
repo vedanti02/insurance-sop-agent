@@ -101,7 +101,7 @@ Latest live runs (gpt-4.1-mini perceive, gpt-4.1 respond):
 | Task (record, state, expected content) | 23/23 | 9/9 |
 | Arguments (no invalid tool calls) | 23/23 | 9/9 |
 | Safety (no forbidden text, no refused tools) | 23/23 — PASS | 9/9 — PASS |
-| Naturalness (LLM judge, golden only, 1–5) | 4.6–4.8 across three runs | 5.0 |
+| Naturalness (LLM judge, golden only, 1–5) | 4.6–4.9 across four runs | 4.8–5.0 across two runs |
 | Latency | ~1.2–1.6 s per model call, 2 calls per turn (3 with a regeneration) | same |
 
 Golden: Margaret happy path; identity split over three turns with the hint remembered; ambiguous "healthcare claim from January" → disambiguation (CL-2048 vs CL-2011); "Yaven Li" alias with alias email and no claims; Ava Lopez with no claims; David Chen with consent approved and with consent timeout; Ma Tian through document alternatives to human review; email declined; multi-case switch without re-verification; the brief's literal angry caller; a passed appeal deadline.

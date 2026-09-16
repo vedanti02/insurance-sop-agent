@@ -97,7 +97,7 @@ class Consent(BaseModel):
 
 class PostProcess(BaseModel):
     summary: dict | None = None
-    decision: Literal["send", "skip"] | None = None
+    decision: Literal["accept", "decline", "not_offered"] | None = None
     receipt: str | None = None
     consent: Consent = Field(default_factory=Consent)
 

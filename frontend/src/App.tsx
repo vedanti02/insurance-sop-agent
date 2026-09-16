@@ -64,7 +64,8 @@ export default function App() {
   const trace = s?.trace ?? [];
   const shown = allTurns ? trace : trace.filter((t) => t.turn === s?.turn);
   const safety = trace.filter((t) => t.kind === "safety" || (t.kind === "validator" && t.data.ok === false));
-  const hints = s ? Object.entries(s.intent.case_hints).filter(([, v]) => v) : [];
+  // case_id is written back by resolution; only show it as a caller hint when the caller actually said it
+  const hints = s ? Object.entries(s.intent.case_hints).filter(([k, v]) => v && !(k === "case_id" && v === s.intent.resolved_case)) : [];
   const u = s?.usage;
   return (
     <div className="app">

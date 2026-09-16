@@ -1,4 +1,35 @@
 {
+ "02a809d4e01b7615b6d4720a": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": "1299",
+   "case_id": null,
+   "case_type": null,
+   "merchant": "Skyline Electronics",
+   "period": "January 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": null,
+  "done": false,
+  "emotion": "neutral",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "evidence_submission",
+  "new_case_request": false,
+  "question": "Can I still send more evidence for the denied dispute?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
  "16a8b9e0ec8145cf3f0ce1a4": {
   "caller_role_claim": "self",
   "case_hints": {
@@ -61,6 +92,8 @@
   "scope": "in_scope",
   "wants_human": false
  },
+ "40626c5858a0cec2a1da6886": "Yes, you can still send in more evidence for your Skyline Electronics dispute. Just make sure it arrives before March 16th. After that date, only a specialist can reopen the case. Is there anything else you\u2019d like to go over with this dispute?",
+ "499f3b756bc7679a52d76680": "Thanks, Tom, your identity is verified. I\u2019ve pulled up your Skyline Electronics dispute for $1,299 from January 2026. The dispute was denied because the merchant provided proof of delivery that was signed by the cardholder. If you have any evidence to show you didn\u2019t receive the item, you can send it in by March 16th, which is 15 days from today. Is there anything else about this dispute I can help with?",
  "54274d3115783f3d18d000e7": "Thanks for confirming your information. I\u2019ve pulled up your Skyline Electronics dispute for $1299.00 from January 2026. The dispute was denied because the merchant provided proof of delivery signed by the cardholder. Is there anything else about this dispute I can help with?",
  "5b2c5cd24fc4f29e9ce27442": "Thanks for confirming your information. I have your Skyline Electronics dispute for $1299.00 from January 2026 here. This case was denied because the merchant provided proof of delivery signed by the cardholder. Is there anything else about this dispute I can help with?",
  "73c8873c05a83e25745fa3a6": "Thanks for asking about that. You can still send in more evidence for this dispute, but it must arrive before March 16, 2026. After that date, only a specialist can reopen the case. Is there anything else you\u2019d like to go over about this dispute?",

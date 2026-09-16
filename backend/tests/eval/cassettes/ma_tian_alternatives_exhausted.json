@@ -61,6 +61,37 @@
   "scope": "in_scope",
   "wants_human": false
  },
+ "32d29dde93ed9df8c148e3e6": {
+  "caller_role_claim": "self",
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": "healthcare",
+   "merchant": null,
+   "period": "March 2026",
+   "status": "denied"
+  },
+  "consent_signal": null,
+  "document_unavailable": "diagnosis report",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": "next_steps",
+  "new_case_request": false,
+  "question": "What can I do if I can't get the diagnosis report because the clinic closed?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
  "341ab69d732dea15e4c0ab51": {
   "caller_role_claim": "self",
   "case_hints": {
@@ -152,6 +183,7 @@
   "scope": "in_scope",
   "wants_human": false
  },
+ "819588ca3306af6a3c80bf90": "Thanks for confirming your details, Ma Tian. I have your healthcare claim from March 2026 here. The claim was denied because the diagnosis report from your treating provider was missing in the submitted materials.\n\nTo move forward, you'll need to send in the diagnosis report. If you don't have the exact document, you can try submitting a replacement copy or the closest supporting records that still connect to the same treatment. If that's not possible, a claims representative can review other options with you. You have until April 15, 2026, which is 45 days from today, to get those materials in.\n\nIs there anything else about this claim I can help with?",
  "983d9570733edb42a1b5fca5": {
   "caller_role_claim": "self",
   "case_hints": {
@@ -273,6 +305,39 @@
   "intent": "denial_question",
   "new_case_request": false,
   "question": "Why was my healthcare claim denied?",
+  "refusal": false,
+  "representative": null,
+  "scope": "in_scope",
+  "wants_human": false
+ },
+ "d564f11b1e8fc6deb3c7b9e5": "I'm sorry this has been so difficult, especially since you can't get any records from the clinic. Since none of the required or alternative documents are available, the next step is for a human claims representative to review your file and discuss any manual options with you. Would you like me to connect you with someone who can help with that?",
+ "e06980e25d339377aa3dd8d1": "I understand how frustrating that must be, especially with the clinic no longer available. If you can't get the exact diagnosis report, the next best step is to request any replacement copy or the closest supporting records you can find that still relate to the same treatment. If you only have part of what\u2019s needed for now, you can submit that along with a short note explaining what\u2019s missing, so your file can still be reviewed. If none of the reasonable alternatives are available, a human claims representative can go over your file with you to see what might be possible.\n\nIs there anything else I can check for you on this claim?",
+ "f2d33b50da9d328f79aaa501": {
+  "caller_role_claim": null,
+  "case_hints": {
+   "amount": null,
+   "case_id": null,
+   "case_type": null,
+   "merchant": null,
+   "period": null,
+   "status": null
+  },
+  "consent_signal": null,
+  "document_unavailable": "any documents from the clinic",
+  "done": false,
+  "emotion": "frustrated",
+  "identity_candidates": {
+   "dob": null,
+   "email": null,
+   "full_name": null,
+   "id_last4": null,
+   "phone": null,
+   "policy_number": null
+  },
+  "injection_suspected": false,
+  "intent": null,
+  "new_case_request": false,
+  "question": null,
   "refusal": false,
   "representative": null,
   "scope": "in_scope",
