@@ -209,7 +209,9 @@ def _process(ctx: ToolCtx, d: Directive) -> None:
     verified_now = any(t.kind == "transition" and t.data.get("frm") == "VERIFY_ID" and t.turn == bb.turn for t in bb.trace)
     hint = it.case_hints
     parts = []
-    if verified_now:
+    if verified_now and bb.identity.caller_role == "representative":
+        parts.append("The policyholder's authorization came through — say so, and that you can now help on their behalf.")
+    elif verified_now:
         parts.append("Identity is verified now — say so in a few words.")
     if first and (it.intent_turn or 0) < bb.turn:
         desc = " ".join(x for x in [hint.status, hint.case_type, f"from {hint.period}" if hint.period else ""] if x)

@@ -38,8 +38,9 @@ export default function App() {
     setState(r.state); setMode(r.mode); setRequired(r.required_fields ?? 3);
     if (r.vertical) { setVertical(r.vertical); sessionStorage.setItem("sop_vertical", r.vertical); }
   }
-  async function newSession(v = vertical) {
-    const r = await api.create({ consent_scenario: consent, demo_today: today, vertical: v });
+  // consent scenario and "today" are fixed at session creation, so changing either starts a new session
+  async function newSession(v = vertical, c = consent, t = today) {
+    const r = await api.create({ consent_scenario: c, demo_today: t, vertical: v });
     sessionStorage.setItem("sop_sid", r.session_id);
     setSid(r.session_id); apply(r);
   }
@@ -73,8 +74,10 @@ export default function App() {
         <div><h1>SOP Agent</h1><span className="sub">SOP in the harness, language in the model</span></div>
         <div className="controls">
           <label>vertical <select value={vertical} onChange={(e) => newSession(e.target.value)}>{(verticals.length ? verticals : [{ name: vertical, domain: vertical, scripts: {} }]).map((v) => <option key={v.name} value={v.name}>{v.domain}</option>)}</select></label>
-          <label>consent <select value={consent} onChange={(e) => setConsent(e.target.value)}><option>default</option><option>timeout</option></select></label>
-          <label>today <input className="date" value={today} onChange={(e) => setToday(e.target.value)} /></label>
+          <label title="starts a new session">consent <select value={consent} onChange={(e) => { setConsent(e.target.value); newSession(vertical, e.target.value, today); }}><option>default</option><option>timeout</option></select></label>
+          <label title="applies on Enter or when you leave the field (starts a new session)">today <input className="date" value={today} onChange={(e) => setToday(e.target.value)}
+            onBlur={(e) => /^\d{4}-\d{2}-\d{2}$/.test(e.target.value) && newSession(vertical, consent, e.target.value)}
+            onKeyDown={(e) => { if (e.key === "Enter") (e.target as HTMLInputElement).blur(); }} /></label>
           <input placeholder="API key (optional, session only)" value={key} onChange={(e) => { setKeyState(e.target.value); setKey(e.target.value); }} />
           <button onClick={() => newSession()}>New session</button>
           <span className={`mode ${mode}`}>{mode}</span>
